@@ -8,7 +8,7 @@ const sora = Sora({
   variable: "--font-sora",
   weight: ["400", "500", "600", "700"],
   display: "swap",
-});
+}); 
 
 const title = "SKD Scale Craft Media | Digital Marketing Company in West Bengal";
 
