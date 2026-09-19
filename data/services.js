@@ -30,15 +30,6 @@ export const services = [
   },
   {
     number: "04",
-    title: "Content Creation",
-    icon: "PenLine",
-    summary: "Clear, useful content that tells your story and earns attention.",
-    details:
-      "Post copy, captions, website content and campaign messaging written to inform, engage and move people to act.",
-    tags: ["Copywriting", "Captions", "Campaign messaging"],
-  },
-  {
-    number: "05",
     title: "Graphic Design",
     icon: "Palette",
     summary: "Polished visuals that make your brand instantly recognisable.",
@@ -47,7 +38,7 @@ export const services = [
     tags: ["Social creatives", "Ad banners", "Print collateral"],
   },
   {
-    number: "06",
+    number: "05",
     title: "Video & Reels Marketing",
     icon: "Clapperboard",
     summary: "Short-form video and reels crafted for scroll-stopping reach.",
@@ -56,7 +47,7 @@ export const services = [
     tags: ["Reels", "Short-form video", "Video editing"],
   },
   {
-    number: "07",
+    number: "06",
     title: "Lead Generation",
     icon: "Magnet",
     summary: "Campaigns and funnels designed to turn interest into enquiries.",
@@ -65,7 +56,7 @@ export const services = [
     tags: ["Lead campaigns", "Enquiry funnels", "Follow-up flows"],
   },
   {
-    number: "08",
+    number: "07",
     title: "Branding",
     icon: "Gem",
     summary: "A distinct identity and voice that people remember and trust.",
@@ -74,7 +65,7 @@ export const services = [
     tags: ["Brand positioning", "Visual identity", "Tone of voice"],
   },
   {
-    number: "09",
+    number: "08",
     title: "SEO",
     icon: "Search",
     summary: "Search visibility that helps customers find you when they are looking.",
@@ -83,12 +74,39 @@ export const services = [
     tags: ["Keyword research", "On-page SEO", "Technical audits"],
   },
   {
-    number: "10",
+    number: "09",
     title: "Google Business Profile Management",
     icon: "MapPin",
     summary: "A complete, active local profile that wins nearby customers.",
     details:
       "Profile setup and optimisation, regular posts, photo updates and review management to strengthen your local presence.",
     tags: ["Profile optimisation", "Local posts", "Review management"],
+  },
+  {
+    number: "10",
+    title: "Website Development",
+    icon: "MonitorSmartphone",
+    summary: "Fast, responsive websites that turn visitors into enquiries.",
+    details:
+      "Business websites and landing pages designed and built to look great on every device, load quickly and guide visitors to get in touch.",
+    tags: ["Business websites", "Landing pages", "Responsive design"],
+  },
+  {
+    number: "11",
+    title: "App Development",
+    icon: "Smartphone",
+    summary: "Mobile apps that bring your business closer to your customers.",
+    details:
+      "App planning, design and development for Android and iOS, built around a smooth experience for your users.",
+    tags: ["Android apps", "iOS apps", "App UI/UX"],
+  },
+  {
+    number: "12",
+    title: "Photoshoot",
+    icon: "Camera",
+    summary: "Professional photos that show your brand at its best.",
+    details:
+      "Product, business and brand photoshoots that give you high-quality visuals for your website, social media and ads.",
+    tags: ["Product photography", "Brand shoots", "Social media visuals"],
   },
 ];

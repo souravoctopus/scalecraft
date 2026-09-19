@@ -1,11 +1,10 @@
-import { ArrowUpRight, Mail, MapPin, Phone, UserRound } from "lucide-react";
+import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
 import { contact, map, site } from "@/data/site";
 import ContactForm from "@/components/ContactForm";
 import WhatsAppIcon from "@/components/ui/WhatsAppIcon";
 
 const details = [
-  { icon: Phone, label: "Phone", value: contact.phoneDisplay, href: contact.phoneHref },
-  { icon: UserRound, label: "Contact person", value: contact.contactPersonDisplay, href: contact.contactPersonHref },
+  { icon: Phone, label: "Phone", value: contact.phoneDisplay, href: contact.phoneHref, wide: true },
   { icon: Mail, label: "Email", value: contact.email, href: contact.emailHref, wide: true },
   { icon: WhatsAppIcon, label: "WhatsApp", value: `Chat with us on ${contact.phoneDisplay}`, href: contact.whatsappHref, external: true, wide: true },
 ];

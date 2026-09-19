@@ -3,22 +3,37 @@
 import { useRef, useState } from "react";
 import {
   ArrowUpRight,
+  Camera,
   Clapperboard,
   Gem,
   Magnet,
   MapPin,
+  MonitorSmartphone,
   MousePointerClick,
   Palette,
-  PenLine,
   Plus,
   Search,
   Share2,
+  Smartphone,
   TrendingUp,
 } from "lucide-react";
 import { gsap, useGSAP, MOTION_OK } from "@/lib/gsap";
 import { services } from "@/data/services";
 
-const icons = { TrendingUp, Share2, MousePointerClick, PenLine, Palette, Clapperboard, Magnet, Gem, Search, MapPin };
+const icons = {
+  TrendingUp,
+  Share2,
+  MousePointerClick,
+  Palette,
+  Clapperboard,
+  Magnet,
+  Gem,
+  Search,
+  MapPin,
+  MonitorSmartphone,
+  Smartphone,
+  Camera,
+};
 
 // Hover previews only where the side panel is shown (large screens with a pointer).
 const hoverSelects = () => window.matchMedia("(min-width: 1024px) and (hover: hover)").matches;
@@ -61,7 +76,7 @@ export default function Services() {
             </h2>
           </div>
           <p data-reveal className="max-w-lg text-lg leading-relaxed text-muted lg:justify-self-end">
-            Ten connected services, one growth plan. Pick what you need today and add more as your business
+            Twelve connected services, one growth plan. Pick what you need today and add more as your business
             grows.
           </p>
         </div>

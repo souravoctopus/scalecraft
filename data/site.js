@@ -13,8 +13,6 @@ export const site = {
 export const contact = {
   phoneDisplay: "6291588757",
   phoneHref: "tel:+916291588757",
-  contactPersonDisplay: "7003019108",
-  contactPersonHref: "tel:+917003019108",
   email: "info@skdscalecraftmedia.com",
   emailHref: "mailto:info@skdscalecraftmedia.com",
   whatsappHref: "https://wa.me/916291588757",
